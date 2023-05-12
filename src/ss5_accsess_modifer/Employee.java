@@ -1,13 +1,13 @@
 package ss5_accsess_modifer;
 
 public class Employee {
-    private String Name;
-    private String PhoneNumber;
+    private String name;
+    private String phoneNumber;
     private String position;
 //   private thể hiện tính báo đóng. ngăn chặn truy cập bên ngoài (name,phone,position)
-    static String NameCompany;
+    static String nameCompany;
     static {
-        NameCompany = "MeuGau";
+        nameCompany = "MeuGau";
     }
-//  static namecompany là thuộc tính dùng chung cho các đối tượng
+//  static nameCompany là thuộc tính dùng chung cho các đối tượng
 }
