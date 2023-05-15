@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss6_inheritance/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_inheritance/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/IBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/NaturalBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/SocialBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7_abstract_class_interface/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code/CleanCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code/EmloyeeDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss5_accsess_modifer/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5_accsess_modifer/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
