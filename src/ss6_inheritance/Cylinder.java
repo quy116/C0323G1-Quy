@@ -2,8 +2,9 @@ package ss6_inheritance;
 
 public class Cylinder extends Circle{
     private double height;
+    // day la khong ke thua dc
 
-    public Cylinder() {
+    public Cylinder() {// day la overload
     }
 
         //
@@ -15,13 +16,16 @@ public class Cylinder extends Circle{
     public double getHeight() {
         return height;
     }
+    // day la ke thua dc
 
     public void setHeight(double height) {
         this.height = height;
     }
+    // day la ke thua dc
     public double getVolume(){
         return super.getArea() * this.height;
     }
+    // day la ke thua dc
 
     @Override // day la override
     public String toString() {
