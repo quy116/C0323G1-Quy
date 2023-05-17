@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss10_stack_queue/Bai1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_danh_sach/service/FruitSv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_danh_sach/service/FruitSv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_danh_sach/validate/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_danh_sach/validate/Regex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Bai1">
+    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_stack_queue.Bai1" />
+      <module name="HocLai-mdule2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10_stack_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HocLai-mdule2" />
@@ -76,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai1" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ss7_abstract_class_interface.main" />
