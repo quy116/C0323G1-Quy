@@ -13,7 +13,9 @@ public class NaturalBook extends Book implements IBook{
 
     @Override
     public void display() {
-
+        System.out.println( "NaturalBook{" + super.toString() +
+                "value='" + value + '\'' +
+                '}');
     }
 
     @Override

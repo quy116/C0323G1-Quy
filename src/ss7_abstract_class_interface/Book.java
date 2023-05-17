@@ -46,4 +46,8 @@ public abstract class Book {
                 ", year='" + year + '\'' +
                 '}';
     }
+    public void display() {
+
+    }
+
 }

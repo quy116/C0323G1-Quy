@@ -48,4 +48,24 @@ public class readAndWriter {
         }
         return fruitList;
     }
+    public static List<Fruit> fruitsRead1(){
+        List<Fruit> fruitList = new ArrayList<>();
+        File file = new File("src/ss9_danh_sach/until/data.csv");
+        FileReader fileReader = null;
+        try {
+            fileReader = new FileReader(file);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String line = null;
+            while ((line = bufferedReader.readLine())!= null && line.equals("")){
+                String[] arr = line.split(",");
+                Fruit fruit = new Fruit(arr[0],arr[1],arr[2],arr[3],arr[0]);
+                fruitList.add(fruit);
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return fruitList;
+    }
 }

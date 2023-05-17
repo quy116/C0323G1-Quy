@@ -1,6 +1,6 @@
 package ss7_abstract_class_interface;
 
-public class SocialBook extends Book implements IBook{
+public class SocialBook extends Book implements IBook {
     public SocialBook() {
     }
 
@@ -10,11 +10,12 @@ public class SocialBook extends Book implements IBook{
 
     @Override
     public void display() {
-
+        System.out.println( "SocialBook{" + super.toString() +
+                '}');
     }
 
     @Override
     public String toString() {
-        return "SocialBook{}"+ super.toString();
+        return "SocialBook{}" + super.toString();
     }
 }
