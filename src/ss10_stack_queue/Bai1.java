@@ -51,4 +51,29 @@ public class Bai1 {
         System.out.println(bai1.queue(9));
         System.out.println(bai1.stack(9));
     }
+//
+//boolean solution(int[] a) {
+//    boolean flag = true;
+//    if(a.length < 3) {
+//        return false;
+//    }
+//    for(int i = 1; i < a.length - 1; i++) {
+//        int sum2 = 0;
+//        int sum = 0;
+//        for (int j = 0; j < i; j++) {
+//            sum += a[j];
+//        }
+//        for (int k = i +1; k < a.length; k++) {
+//            sum2 += a[k];
+//        }
+//        if (sum == sum2){
+//            flag= true;
+//            break;
+//        } else {
+//            flag = false;
+//        }
+//    }
+//    return flag;
+//}
+
 }

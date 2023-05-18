@@ -5,7 +5,9 @@ public class CleanCode {
         return inputNumber1 + inputNumber2 + inputNumber3;
     }
 
-    EmloyeeDetails emloyeeDetails = new EmloyeeDetails();
+    public EmloyeeDetails emloyeeDetails(EmloyeeDetails emloyeeDetails){
+        return emloyeeDetails;
+    }
     public boolean isLeapYear(int year) {
         if (year % 4 == 0 && year % 100 != 0) {
             return true;

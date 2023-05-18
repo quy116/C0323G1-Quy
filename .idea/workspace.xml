@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10_stack_queue/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_stack_queue/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/ManufacturersName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Motorbike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Transportation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/ICarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/manufacturersName/IManufacturersName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/manufacturersName/ManufacturersNameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/IMotorbikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/MotorbikeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/ITruckRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/TruckRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/car/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/car/ICarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/motorbike/IMotorbike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/motorbike/MotorbikeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/truck/ITruck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/truck/TruckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/view/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10_stack_queue/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10_stack_queue/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss8_clean_code/CleanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8_clean_code/CleanCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,7 +62,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bai1">
+  <component name="RunManager" selected="Application.ss9_bai_tap_them.view.main">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss10_stack_queue.Bai1" />
       <module name="HocLai-mdule2" />
@@ -60,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_stack_queue.demo" />
+      <module name="HocLai-mdule2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10_stack_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss9_danh_sach.view.main" />
       <module name="HocLai-mdule2" />
@@ -73,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss7_abstract_class_interface.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abstract_class_interface.main" />
+    <configuration name="ss9_bai_tap_them.view.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss9_bai_tap_them.view.main" />
       <module name="HocLai-mdule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_abstract_class_interface.*" />
+          <option name="PATTERN" value="ss9_bai_tap_them.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,10 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss9_bai_tap_them.view.main" />
+        <item itemvalue="Application.demo" />
         <item itemvalue="Application.Bai1" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ss7_abstract_class_interface.main" />
       </list>
     </recent_temporary>
   </component>
