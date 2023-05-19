@@ -26,12 +26,24 @@ public class CarRepository implements ICarRepository {
 
 
     @Override
-    public void findCar() {
+    public boolean findCar(String input) {
+        boolean flag = false;
+        for (int i = 0; i < carList.size(); i++) {
+            if (input.equals(carList.get(i).getSeaOfControl())){
+                System.out.println("car : "+carList.get(i));
+                flag = true;
+            }
+        }
+        return flag;
 
     }
 
     @Override
-    public void deleteCar() {
-
+    public void deleteCar(String input) {
+        for (int i = 0; i < carList.size(); i++) {
+            if (input.equals(carList.get(i).getSeaOfControl())){
+                carList.remove(i);
+            }
+        }
     }
 }

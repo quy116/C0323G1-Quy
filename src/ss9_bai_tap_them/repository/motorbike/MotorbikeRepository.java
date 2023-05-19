@@ -26,12 +26,23 @@ public class MotorbikeRepository implements IMotorbikeRepository {
     }
 
     @Override
-    public void findMotorbiker() {
-
+    public boolean findMotorbiker(String input) {
+        boolean flag = false;
+        for (int i = 0; i < motorbikeList.size(); i++) {
+            if (input.equals(motorbikeList.get(i).getSeaOfControl())){
+                System.out.println("motoike : "+ motorbikeList.get(i));
+                flag  = true;
+            }
+        }
+        return flag;
     }
 
     @Override
-    public void deleteMotorbiker() {
-
+    public void deleteMotorbiker(String input) {
+        for (int i = 0; i < motorbikeList.size(); i++) {
+            if (input.equals(motorbikeList.get(i).getSeaOfControl())){
+                motorbikeList.remove(i);
+            }
+        }
     }
 }

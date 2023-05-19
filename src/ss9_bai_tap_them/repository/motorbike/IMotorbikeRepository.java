@@ -6,6 +6,6 @@ import ss9_bai_tap_them.model.Motorbike;
 public interface IMotorbikeRepository {
     void displapMotorbiker();
     void addMotorbiker(Motorbike motorbike);
-    void findMotorbiker();
-    void deleteMotorbiker();
+    boolean findMotorbiker(String input);
+    void deleteMotorbiker(String input);
 }

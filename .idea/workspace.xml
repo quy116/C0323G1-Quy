@@ -5,31 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10_stack_queue/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/ManufacturersName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Motorbike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Transportation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/model/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/ICarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/manufacturersName/IManufacturersName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/manufacturersName/ManufacturersNameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/IMotorbikeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/MotorbikeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/ITruckRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/TruckRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/car/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/car/ICarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/motorbike/IMotorbike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/motorbike/MotorbikeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/truck/ITruck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/truck/TruckService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/view/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10_stack_queue/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10_stack_queue/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8_clean_code/CleanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8_clean_code/CleanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/ICarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/car/ICarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/IMotorbikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/IMotorbikeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/MotorbikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/motorbike/MotorbikeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/ITruckRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/ITruckRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/TruckRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/repository/truck/TruckRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/car/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_bai_tap_them/service/car/CarService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

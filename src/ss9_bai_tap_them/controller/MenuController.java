@@ -67,8 +67,10 @@ public class MenuController {
                     }
                     break;
                 case "3":
+                    carService.deleteCar();
                     break;
                 case "4":
+                    carService.findCar();
                     break;
                 case "5":
                     break;
