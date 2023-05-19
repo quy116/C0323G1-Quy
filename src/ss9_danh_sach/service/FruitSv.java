@@ -11,8 +11,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FruitSv implements IFruitSv {
-    Scanner scanner = new Scanner(System.in);
-    FruitRepository fruitRepository = new FruitRepository();
+    private Scanner scanner = new Scanner(System.in);
+   private FruitRepository fruitRepository = new FruitRepository();
 
     @Override
     public void displaySv() {

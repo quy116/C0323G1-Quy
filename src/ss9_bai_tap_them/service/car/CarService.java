@@ -10,10 +10,10 @@ import ss9_bai_tap_them.repository.truck.TruckRepository;
 import java.util.Scanner;
 
 public class CarService implements ICarService {
-    Scanner sc = new Scanner(System.in);
-    CarRepository carRepository = new CarRepository();
-    TruckRepository truckRepository = new TruckRepository();
-    MotorbikeRepository motorbikeRepository = new MotorbikeRepository();
+    private Scanner sc = new Scanner(System.in);
+    private CarRepository carRepository = new CarRepository();
+    private TruckRepository truckRepository = new TruckRepository();
+    private MotorbikeRepository motorbikeRepository = new MotorbikeRepository();
 
     //String seaOfControl, String manufacturersName, String year, String owner, String numberOfSeats, String typeCar
     @Override
@@ -79,7 +79,7 @@ public class CarService implements ICarService {
                     "1. yes \n" +
                     "2. no");
             String choice = sc.nextLine();
-            if (choice.equals("1")){
+            if (choice.equals("1")) {
                 carRepository.deleteCar(input);
                 motorbikeRepository.deleteMotorbiker(input);
                 truckRepository.deleteTruck(input);

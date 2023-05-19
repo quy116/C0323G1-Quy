@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FruitRepository implements IFruit {
-    Scanner scanner = new Scanner(System.in);
+   private Scanner scanner = new Scanner(System.in);
     private List<Fruit> fruitArrayList = new ArrayList<>();
 
     @Override

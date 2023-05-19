@@ -7,9 +7,10 @@ import ss9_bai_tap_them.repository.truck.TruckRepository;
 
 import java.util.Scanner;
 
-public class TruckService implements ITruck{
-    TruckRepository truckRepository = new TruckRepository();
-    Scanner sc = new Scanner(System.in);
+public class TruckService implements ITruck {
+    private TruckRepository truckRepository = new TruckRepository();
+    private Scanner sc = new Scanner(System.in);
+
     @Override
     public void displayTruck() {
         truckRepository.displayTruck();
@@ -29,7 +30,7 @@ public class TruckService implements ITruck{
 
         System.out.println("nhap ten quoc gia  san xuat vao");
         String inputCountry = sc.nextLine();
-        ManufacturersName manufacturersName = new ManufacturersName(inputCode, inputFacturers,inputCountry);
+        ManufacturersName manufacturersName = new ManufacturersName(inputCode, inputFacturers, inputCountry);
         ManufacturersNameRepository manufacturersNameRepository = new ManufacturersNameRepository();
         manufacturersNameRepository.addManufacturersName(manufacturersName);
 
@@ -43,7 +44,7 @@ public class TruckService implements ITruck{
         System.out.println("nhap trong tai vao");
         String inputRefereer = sc.nextLine();
 
-        Truck truck = new Truck(inputControl,inputFacturers,inputYear,inputOwner,inputRefereer);
+        Truck truck = new Truck(inputControl, inputFacturers, inputYear, inputOwner, inputRefereer);
         truckRepository.addTruck(truck);
     }
 

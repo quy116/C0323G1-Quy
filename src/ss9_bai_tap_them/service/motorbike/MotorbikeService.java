@@ -8,8 +8,8 @@ import ss9_bai_tap_them.repository.motorbike.MotorbikeRepository;
 import java.util.Scanner;
 
 public class MotorbikeService implements IMotorbike{
-    MotorbikeRepository motorbikeRepository = new MotorbikeRepository();
-    Scanner sc = new Scanner(System.in);
+    private MotorbikeRepository motorbikeRepository = new MotorbikeRepository();
+    private Scanner sc = new Scanner(System.in);
     @Override
     public void displayMotorbike() {
         motorbikeRepository.displapMotorbiker();
