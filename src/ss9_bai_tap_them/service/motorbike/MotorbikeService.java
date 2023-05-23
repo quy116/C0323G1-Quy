@@ -46,13 +46,5 @@ public class MotorbikeService implements IMotorbike{
         motorbikeRepository.addMotorbiker(motorbike);
     }
 
-    @Override
-    public void findMotorbike() {
 
-    }
-
-    @Override
-    public void deleteMotorbike() {
-
-    }
 }

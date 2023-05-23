@@ -13,7 +13,7 @@ public class CarService implements ICarService {
     private Scanner sc = new Scanner(System.in);
     private CarRepository carRepository = new CarRepository();
     private TruckRepository truckRepository = new TruckRepository();
-    private MotorbikeRepository motorbikeRepository = new MotorbikeRepository();
+    private  MotorbikeRepository motorbikeRepository = new MotorbikeRepository();
 
     //String seaOfControl, String manufacturersName, String year, String owner, String numberOfSeats, String typeCar
     @Override
