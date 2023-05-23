@@ -24,8 +24,8 @@ public class FruitRepository implements IFruitRepository {
     }
 
     @Override
-    public void editRepository() {
-
+    public void editRepository(String fruit1) {
+        fruitMap.remove(fruit1);
     }
 
     @Override
