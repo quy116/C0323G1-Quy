@@ -16,17 +16,17 @@ public class WorkflowManagementRepository implements IWorkflowManagementReposito
     }
 
     @Override
-    public List<WorkflowManagement> getDisplayRepository() {
+    public List<WorkflowManagement> getDisplayWorkRepository() {
         return workflowManagementList;
     }
 
     @Override
-    public void addRepository(WorkflowManagement workflowManagement) {
+    public void addWorkRepository(WorkflowManagement workflowManagement) {
         workflowManagementList.add(workflowManagement);
     }
 
     @Override
-    public List<WorkflowManagement> deleteRepository(List<WorkflowManagement> list) {
+    public List<WorkflowManagement> deleteWorkRepository(List<WorkflowManagement> list) {
         workflowManagementList = list;
         return workflowManagementList;
     }

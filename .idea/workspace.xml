@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ss11_collection/controller/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/controller/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_collection/model/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/model/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_collection/repository/FruitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/repository/FruitRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_collection/repository/IFruitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/repository/IFruitRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_collection/service/FruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/service/FruitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_collection/service/IFruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/service/IFruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/controller/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/model/WorkflowManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/repository/IWorkflowManagementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/repository/WorkflowManagementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/service/IWorkflowManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/service/WorkflowManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_search/controller/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_search/controller/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_search/repository/IWorkflowManagementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_search/repository/IWorkflowManagementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_search/repository/WorkflowManagementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_search/repository/WorkflowManagementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_search/service/IWorkflowManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_search/service/IWorkflowManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_search/service/WorkflowManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_search/service/WorkflowManagementService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/gaugaune/IdeaProjects/HocLai-mdule2",
+    "last_opened_file_path": "/Users/gaugaune/IdeaProjects/HocLai-mdule2/src/ss14",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,20 +61,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ss11_collection.view.Main">
-    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_stack_queue.Bai1" />
-      <module name="HocLai-mdule2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss10_stack_queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ss14" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ss14.view.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss13_search.view.Main" />
       <module name="HocLai-mdule2" />
@@ -107,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ss14.view.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14.view.Main" />
+      <module name="HocLai-mdule2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ss9_bai_tap_them.view.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss9_bai_tap_them.view.main" />
       <module name="HocLai-mdule2" />
@@ -122,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss14.view.Main" />
         <item itemvalue="Application.ss11_collection.view.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ss9_bai_tap_them.view.main" />
         <item itemvalue="Application.demo" />
-        <item itemvalue="Application.Bai1" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683863292415</updated>
       <workItem from="1684831268351" duration="4227000" />
-      <workItem from="1684849907535" duration="6952000" />
+      <workItem from="1684849907535" duration="12069000" />
     </task>
     <servers />
   </component>

@@ -13,12 +13,12 @@ public class WorkflowManagementService implements IWorkflowManagementService {
 
     @Override
     public void displayWorkService() {
-        List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayRepository();
+        List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayWorkRepository();
         workflowManagementList.forEach(workflowManagement -> System.out.println(workflowManagement));
     }
 
     @Override
-    public void addService() {
+    public void addWorkService() {
         System.out.println("nhap code");
         String inputCode = sc.nextLine();
 
@@ -35,12 +35,12 @@ public class WorkflowManagementService implements IWorkflowManagementService {
         String inputComment = sc.nextLine();
 
         WorkflowManagement workflowManagement = new WorkflowManagement(inputCode, inputName, inputDay, inputMoney, inputComment);
-        workflowManagementRepository.addRepository(workflowManagement);
+        workflowManagementRepository.addWorkRepository(workflowManagement);
     }
 
     @Override
-    public void deleteService() {
-        List<WorkflowManagement> list = workflowManagementRepository.getDisplayRepository();
+    public void deleteWorkService() {
+        List<WorkflowManagement> list = workflowManagementRepository.getDisplayWorkRepository();
         String inputCode = sc.nextLine();
         for (int i = 0; i < list.size(); i++) {
             if (inputCode.equals(list.get(i).getCode())) {
@@ -50,15 +50,15 @@ public class WorkflowManagementService implements IWorkflowManagementService {
     }
 
     @Override
-    public void editService() {
-        deleteService();
-        addService();
+    public void editWorkService() {
+        deleteWorkService();
+        addWorkService();
     }
 
     @Override
-    public void findTrueService() {
+    public void findWorkTrueService() {
         System.out.println("nhap code de tim");
-        List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayRepository();
+        List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayWorkRepository();
         String inputCode = sc.nextLine();
         for (int i = 0; i < workflowManagementList.size(); i++) {
             if (inputCode.equals(workflowManagementList.get(i).getCode())){
@@ -68,12 +68,12 @@ public class WorkflowManagementService implements IWorkflowManagementService {
     }
 
     @Override
-    public void findService() {
-        System.out.println("nhap code de tim");
-        List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayRepository();
-        String inputCode = sc.nextLine();
+    public void findWorkService() {
+        System.out.println("nhap name de tim");
+        List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayWorkRepository();
+        String inputName = sc.nextLine();
         for (int i = 0; i < workflowManagementList.size(); i++) {
-            if (workflowManagementList.get(i).getCode().contains(inputCode)){
+            if (workflowManagementList.get(i).getName().contains(inputName)){
                 System.out.println(workflowManagementList.get(i));
             }
         }
