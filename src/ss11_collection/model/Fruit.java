@@ -1,6 +1,7 @@
 package ss11_collection.model;
 
 public class Fruit {
+    private String Code;
     private String name;
     private String kindOfFruit;
     private String dateOfManufacture;
@@ -10,7 +11,8 @@ public class Fruit {
     public Fruit() {
     }
 
-    public Fruit(String name, String kindOfFruit, String dateOfManufacture, String expiry, String price) {
+    public Fruit(String code, String name, String kindOfFruit, String dateOfManufacture, String expiry, String price) {
+        Code = code;
         this.name = name;
         this.kindOfFruit = kindOfFruit;
         this.dateOfManufacture = dateOfManufacture;

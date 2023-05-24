@@ -9,27 +9,27 @@ public class FruitRepository implements IFruitRepository {
     private static Map<String, Fruit> fruitMap = new HashMap<>();
 
     static {
-        Fruit fruit = new Fruit("cam", "sanh", "10-3-2000", "10 ngay", "3k");
+        Fruit fruit = new Fruit("001","cam", "sanh", "10-3-2000", "10 ngay", "3k");
         fruitMap.put("cam", fruit);
     }
 
     @Override
-    public void addRepository(Fruit fruit, String name) {
+    public void addFruitRepository(Fruit fruit, String name) {
         fruitMap.put(name, fruit);
     }
 
     @Override
-    public Map<String, Fruit> display() {
+    public Map<String, Fruit> displayFruit() {
         return fruitMap;
     }
 
     @Override
-    public void editRepository(String fruit1) {
+    public void editFruitRepository(String fruit1) {
         fruitMap.remove(fruit1);
     }
 
     @Override
-    public void deleteRepository(String fruit) {
+    public void deleteFruitRepository(String fruit) {
         fruitMap.remove(fruit);
     }
 }

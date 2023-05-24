@@ -18,16 +18,16 @@ public class Menu {
             String input = sc.nextLine();
             switch (input){
                 case "1":
-                    fruitService.display();
+                    fruitService.displayFruit();
                     break;
                 case "2":
-                    fruitService.addService();
+                    fruitService.addFruitService();
                     break;
                 case "3":
-                    fruitService.deleteService();
+                    fruitService.deleteFruitService();
                     break;
                 case "4":
-                    fruitService.editService();
+                    fruitService.editFruitService();
                     break;
                 case "0":
                     System.exit(0);

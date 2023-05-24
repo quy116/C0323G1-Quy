@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss13_search/controller/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search/model/WorkflowManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search/repository/IWorkflowManagementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search/repository/WorkflowManagementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search/service/IWorkflowManagementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search/service/WorkflowManagementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_collection/controller/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/controller/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_collection/model/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/model/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_collection/repository/FruitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/repository/FruitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_collection/repository/IFruitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/repository/IFruitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_collection/service/FruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/service/FruitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_collection/service/IFruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_collection/service/IFruitService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ss11_collection.view.Main">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss10_stack_queue.Bai1" />
       <module name="HocLai-mdule2" />
@@ -124,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ss11_collection.view.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ss9_bai_tap_them.view.main" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Application.Bai1" />
@@ -141,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683863292415</updated>
       <workItem from="1684831268351" duration="4227000" />
-      <workItem from="1684849907535" duration="6206000" />
+      <workItem from="1684849907535" duration="6952000" />
     </task>
     <servers />
   </component>
