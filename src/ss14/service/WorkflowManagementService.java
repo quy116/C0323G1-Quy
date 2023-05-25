@@ -3,6 +3,7 @@ package ss14.service;
 import ss14.model.WorkflowManagement;
 import ss14.repository.WorkflowManagementRepository;
 
+import java.io.IOException;
 import java.util.*;
 
 public class WorkflowManagementService implements IWorkflowManagementService {
@@ -18,9 +19,24 @@ public class WorkflowManagementService implements IWorkflowManagementService {
 
     @Override
     public void addWorkflowService() {
-        System.out.println("nhap code");
-        String inputCode = sc.nextLine();
+        List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayWorkflowRepository();
+        boolean flag = false;
+        String inputCode;
+        do {
+            System.out.println("nhap code");
+            inputCode = sc.nextLine();
+            try {
+                for (int i = 0; i < workflowManagementList.size(); i++) {
+                    if (inputCode.equals(workflowManagementList.get(i).getCode())) {
+                        throw new UniqueException("trung id");
+                    }
+                }
+                flag = true;
 
+            } catch (UniqueException e) {
+                System.err.println("UniqueException. xin moi nhap lai");
+            }
+        } while (!flag);
         System.out.println("nhap name");
         String inputName = sc.nextLine();
 
@@ -40,7 +56,27 @@ public class WorkflowManagementService implements IWorkflowManagementService {
     @Override
     public void deleteWorkflowService() {
         List<WorkflowManagement> list = workflowManagementRepository.getDisplayWorkflowRepository();
-        String inputCode = sc.nextLine();
+        boolean flag = false;
+        String inputCode;
+        do {
+            inputCode = sc.nextLine();
+            int check = 0;
+            try {
+                for (int i = 0; i < list.size(); i++) {
+                    if (inputCode.equals(list.get(i).getCode())) {
+                        check++;
+                        break;
+                    }
+                }
+                if (check == 0) {
+                    throw new IdNotFoundException("khong co id");
+                }else{
+                    flag = true;
+                }
+            } catch (IdNotFoundException e) {
+                System.err.println("IdNotFoundException. moi nhap lai");
+            }
+        } while (!flag);
         for (int i = 0; i < list.size(); i++) {
             if (inputCode.equals(list.get(i).getCode())) {
                 list.remove(i);

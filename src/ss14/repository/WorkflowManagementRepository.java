@@ -12,8 +12,8 @@ public class WorkflowManagementRepository implements IWorkflowManagementReposito
 
     static {
         WorkflowManagement workflowManagement = new WorkflowManagement("001", "bcs", "11.11.2023", 70.0, "dung phe");
-        WorkflowManagement workflowManagement1 = new WorkflowManagement("001", "hai", "11.11.2023", 60.0, "dung phe");
-        WorkflowManagement workflowManagement2 = new WorkflowManagement("001", "thanh", "11.11.2023", 90.0, "dung phe");
+        WorkflowManagement workflowManagement1 = new WorkflowManagement("002", "hai", "11.11.2023", 60.0, "dung phe");
+        WorkflowManagement workflowManagement2 = new WorkflowManagement("003", "thanh", "11.11.2023", 90.0, "dung phe");
         workflowManagementList.add(workflowManagement);
         workflowManagementList.add(workflowManagement1);
         workflowManagementList.add(workflowManagement2);
