@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="hello">
-      <change afterPath="$PROJECT_DIR$/src/ss14/common/ReadAndWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14/common/Work.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/common/NewReadAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/common/Work.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss14/model/WorkflowManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/model/WorkflowManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss14/repository/WorkflowManagementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/repository/WorkflowManagementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss14/service/WorkflowManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/service/WorkflowManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9_danh_sach/until/readAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_danh_sach/until/readAndWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +149,7 @@
       <workItem from="1685082664623" duration="1405000" />
       <workItem from="1685180685006" duration="2872000" />
       <workItem from="1685251540921" duration="597000" />
+      <workItem from="1685327457412" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1685004969184</created>

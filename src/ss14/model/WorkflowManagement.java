@@ -1,6 +1,8 @@
 package ss14.model;
 
-public class WorkflowManagement {
+import java.io.Serializable;
+
+public class WorkflowManagement implements Serializable {
     private String code;
     private String name;
     private String day;
