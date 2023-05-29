@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss14/service/IdNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14/service/UniqueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5_accsess_modifer/main.java" afterDir="false" />
+    <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="hello">
+      <change afterPath="$PROJECT_DIR$/src/ss14/common/ReadAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/common/Work.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14/model/WorkflowManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/model/WorkflowManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss14/repository/WorkflowManagementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/repository/WorkflowManagementRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss14/service/WorkflowManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/service/WorkflowManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss14/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_danh_sach/until/readAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_danh_sach/until/readAndWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gaugaune/IdeaProjects/HocLai-mdule2/src/ss14&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gaugaune/IdeaProjects/HocLai-mdule2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -146,11 +146,27 @@
       <updated>1683863292415</updated>
       <workItem from="1684831268351" duration="4227000" />
       <workItem from="1684849907535" duration="15398000" />
-      <workItem from="1684984514485" duration="8842000" />
+      <workItem from="1684984514485" duration="11313000" />
+      <workItem from="1685068875959" duration="4424000" />
+      <workItem from="1685082664623" duration="1405000" />
+      <workItem from="1685180685006" duration="2872000" />
+      <workItem from="1685251540921" duration="597000" />
     </task>
+    <task id="LOCAL-00001" summary="hello">
+      <created>1685004969184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685004969184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
 </project>

@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class readAndWriter {
+public class  readAndWriter {
     public static void writer(List<Fruit> fruitList){
         File file = new File("src/ss9_danh_sach/until/data.csv");
         FileWriter fileWriter = null;

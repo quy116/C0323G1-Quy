@@ -68,5 +68,8 @@ public class WorkflowManagement {
                 ", comment='" + comment + '\'' +
                 '}';
     }
+    public String getToInfoCsv(){
+        return this.code + "," + this.name + "," + this.day + "," +this.money + ","+ this.comment;
+    }
 
 }

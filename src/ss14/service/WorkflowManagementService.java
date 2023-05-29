@@ -57,31 +57,36 @@ public class WorkflowManagementService implements IWorkflowManagementService {
     public void deleteWorkflowService() {
         List<WorkflowManagement> list = workflowManagementRepository.getDisplayWorkflowRepository();
         boolean flag = false;
+        int index ;
         String inputCode;
         do {
             inputCode = sc.nextLine();
             int check = 0;
+            index = 0;
             try {
                 for (int i = 0; i < list.size(); i++) {
                     if (inputCode.equals(list.get(i).getCode())) {
                         check++;
+                        index = i;
                         break;
                     }
                 }
                 if (check == 0) {
                     throw new IdNotFoundException("khong co id");
                 }else{
-                    flag = true;
+                    list.remove(index);
+                    break;
                 }
             } catch (IdNotFoundException e) {
                 System.err.println("IdNotFoundException. moi nhap lai");
             }
         } while (!flag);
-        for (int i = 0; i < list.size(); i++) {
-            if (inputCode.equals(list.get(i).getCode())) {
-                list.remove(i);
-            }
-        }
+        workflowManagementRepository.deleteWorkflowRepository(list);
+//        for (int i = 0; i < list.size(); i++) {
+//            if (inputCode.equals(list.get(i).getCode())) {
+//                list.remove(i);
+////            }
+//        }
     }
 
     @Override
