@@ -8,7 +8,7 @@ import java.util.*;
 
 public class WorkflowManagementService implements IWorkflowManagementService {
     private Scanner sc = new Scanner(System.in);
-    WorkflowManagementRepository workflowManagementRepository = new WorkflowManagementRepository();
+    private WorkflowManagementRepository workflowManagementRepository = new WorkflowManagementRepository();
 
 
     @Override
@@ -22,6 +22,7 @@ public class WorkflowManagementService implements IWorkflowManagementService {
         List<WorkflowManagement> workflowManagementList = workflowManagementRepository.getDisplayWorkflowRepository();
         boolean flag = false;
         String inputCode;
+
         do {
             System.out.println("nhap code");
             inputCode = sc.nextLine();
@@ -37,6 +38,7 @@ public class WorkflowManagementService implements IWorkflowManagementService {
                 System.err.println("UniqueException. xin moi nhap lai");
             }
         } while (!flag);
+
         System.out.println("nhap name");
         String inputName = sc.nextLine();
 
@@ -57,7 +59,7 @@ public class WorkflowManagementService implements IWorkflowManagementService {
     public void deleteWorkflowService() {
         List<WorkflowManagement> list = workflowManagementRepository.getDisplayWorkflowRepository();
         boolean flag = false;
-        int index ;
+        int index;
         String inputCode;
         do {
             inputCode = sc.nextLine();
@@ -73,7 +75,7 @@ public class WorkflowManagementService implements IWorkflowManagementService {
                 }
                 if (check == 0) {
                     throw new IdNotFoundException("khong co id");
-                }else{
+                } else {
                     list.remove(index);
                     break;
                 }

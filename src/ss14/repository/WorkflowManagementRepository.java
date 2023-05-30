@@ -23,6 +23,7 @@ public class WorkflowManagementRepository implements IWorkflowManagementReposito
 
     @Override
     public void addWorkflowRepository(WorkflowManagement workflowManagement) {
+        workflowManagementList = NewReadAndWrite.readData();
         workflowManagementList.add(workflowManagement);
 //        readAndWrite.write(workflowManagementList);
         NewReadAndWrite.writeData(workflowManagementList);
