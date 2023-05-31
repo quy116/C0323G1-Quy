@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="hello">
-      <change afterPath="$PROJECT_DIR$/src/ss17_string_regex/Validate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss14/common/Work.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/common/Work.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss14/repository/WorkflowManagementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/repository/WorkflowManagementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss14/service/WorkflowManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/service/WorkflowManagementService.java" afterDir="false" />
-    </list>
+    <list default="true" id="4990b976-e44a-41fa-91a6-2a22884e288c" name="Changes" comment="hello" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +146,7 @@
       <workItem from="1685327457412" duration="2963000" />
       <workItem from="1685342981071" duration="810000" />
       <workItem from="1685352530565" duration="34000" />
-      <workItem from="1685414847264" duration="3055000" />
+      <workItem from="1685414847264" duration="3396000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1685004969184</created>
